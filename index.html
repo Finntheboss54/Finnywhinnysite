@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="VPlaza is a game/pr_xy site full of games all kids want and need. Meet your expectations with Vplaza Games V1">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Finny's math practice</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <header>
+            <div class="head-left">
+                <img src="F.png" alt="logo">
+            </div>
+            <div class="head-right">
+                <p><a href="#">Home</a></p>
+                <p><a href="a">Alternate links</a></p>
+                <p><a href="ai">AI</a></p>
+                <p><a href="info">Pr_xy</a></p>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search games..." class="search-bar" />
+            </div>
+        </header>
+    </div>
+
+    <div class="no-results-message" id="noResultsMessage" style="display:none;">
+        <h2>No results found...</h2>
+        <p>Try a different search term!</p>
+    </div>
+
+    <main class="games-section">
+        <section class="section">
+            <h2>Popular Titles</h2>
+            <div class="games-grid">
+                <div class="game-card"data-url="games/Polytrack.html">
+                    <img src="images/polytrack.png" alt="Polytrack">
+                    <div class="game-info">
+                        <a>Most popular driving game.</a>
+                        <h3>Polytrack</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Stealabrainrot.html">
+                    <img src="images/sab.png" alt="Krunker">
+                    <div class="game-info">
+                        <a>Most Popular</a>
+                        <h3>Steal a Brainrot</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BlockBlast.html">
+                    <img src="images/blockblast.png" alt="Block Blast">
+                    <div class="game-info">
+                        <h3>Block Blast</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/SnowRider3D.html">
+                    <img src="images/snow-rider3d.jpg" alt="Snow Rider 3D">
+                    <div class="game-info">
+                        <h3>Snow Rider 3D</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section">
+            <h2>All Titles</h2>
+            <div class="games-grid">
+                <div class="game-card" data-url="games/RetroBowl.html">
+                    <img src="images/retro-bowl.jpg" alt="retro-bowl">
+                    <div class="game-info">
+                        <h3>Retro Bowl</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/1v1.LoL.html">
+                    <img src="images/1v1lol.jpg" alt="1v1 Lol">
+                    <div class="game-info">
+                        <h3>1v1 lol</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Slope.html">
+                    <img src="images/slope.jpg" alt="slope">
+                    <div class="game-info">
+                        <h3>Slope</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/SubwaySurfers.html">
+                    <img src="images/subway-surferss.png" alt="subwaysurfers">
+                    <div class="game-info">
+                        <h3>Subway Surfers</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BasketballStars.html">
+                    <img src="images/basketball-stars.jpg" alt="basket-ball-stars">
+                    <div class="game-info">
+                        <h3>Basket Ball Stars</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DriveMad.html">
+                    <img src="images/drive-mad.jpg" alt="drive-mad">
+                    <div class="game-info">
+                        <h3>Drive mad</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DeathRun3D.html">
+                    <img src="images/death-run-3d.jpg" alt="deathrun">
+                    <div class="game-info">
+                        <h3>Death Run</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BasketRandom.html">
+                    <img src="images/basket-random.jpg" alt="basket-random">
+                    <div class="game-info">
+                        <h3>Basket Random</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/MotoX3M.html">
+                    <img src="images/motox3m.jpg" alt="motox3m2">
+                    <div class="game-info">
+                        <h3>MotoX3M</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BitLife.html">
+                    <img src="images/bitlife.jpg" alt="bitlife">
+                    <div class="game-info">
+                        <h3>Bitlife</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Badparenting.html">
+                    <img src="images/Bp.png" alt="getaway-shootout">
+                    <div class="game-info">
+                        <h3>Bad parenting</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/JustFall.lol.html">
+                    <img src="images/justfall-lol.jpg" alt="justfall-lol">
+                    <div class="game-info">
+                        <h3>Just Fall</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/RooftopSnipers.html">
+                    <img src="images/rooftop-snipers.jpg" alt="rooftop-snipers">
+                    <div class="game-info">
+                        <h3>Rooftop Snipers</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/CookieClicker.html">
+                    <img src="images/cookie-clicker.jpg" alt="cookie-clicker">
+                    <div class="game-info">
+                        <h3>Cookie Clicker</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BloonsTD4.html">
+                    <img src="images/Btd4.png" alt="2048">
+                    <div class="game-info">
+                        <h3>Bloonds TD 4</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Snowbattle.io.html">
+                    <img src="images/snow-rider3d.jpg" alt="snow-rider3d">
+                    <div class="game-info">
+                        <h3>Snow Rider</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Minecraft.html">
+                    <img src="images/minecraft.jpg" alt="eagler">
+                    <div class="game-info">
+                        <h3>Minecraft</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/LearntoFly3.html">
+                    <img src="images/learn-to-fly-2.jpg" alt="learn-to-fly-2">
+                    <div class="game-info">
+                        <h3>Learn to fly 2</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/IdleMiningEmpire.html">
+                    <img src="images/idle-mining-empire.jpg" alt="idle-mining-empire">
+                    <div class="game-info">
+                        <h3>Idle Mining Empire</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="https://amongusplay.online/">
+                    <img src="images/among-us.jpg" alt="among-us">
+                    <div class="game-info">
+                        <h3>Among Us</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Paper.io2.html">
+                    <img src="images/paper-io-2.jpg" alt="paper-io-2">
+                    <div class="game-info">
+                        <h3>Paper IO 2</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FlappyBird.html">
+                    <img src="images/flappy-bird.jpg" alt="flappy-bird">
+                    <div class="game-info">
+                        <h3>Flappy Bird</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Badparenting.html">
+                    <img src="images/Bp.png" alt="krunker">
+                    <div class="game-info">
+                        <h3>Bad parenting</h3>
+                        <a>Most Popular</a>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Geometrydashlite.html">
+                    <img src="images/geometry-dash.jpg" alt="geometry-dash">
+                    <div class="game-info">
+                        <h3>Geometry Dash</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Baldi's-Basic.html">
+                    <img src="images/baldis-basics.jpg" alt="baldis-basics">
+                    <div class="game-info">
+                        <h3>Baldis Basics</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Superhot.html">
+                    <img src="images/superhot.jpg" alt="superhot">
+                    <div class="game-info">
+                        <h3>Super Hot</h3>
+                        <a>Very Popular</a>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/TempleRun2.html">
+                    <img src="images/temple-run-2.jpg" alt="temple-run-2">
+                    <div class="game-info">
+                        <h3>Temple Run 2</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="https://happy-wheels.game-files.crazygames.com/ruffle/happywheels.html?isNewUser=false&skipPrerollFirstSession=true&v=1.341">
+                    <img src="images/happy-wheels.jpg" alt="happy-wheels">
+                    <div class="game-info">
+                        <h3>Happy Wheels</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/CrossyRoad.html">
+                    <img src="images/crossy-road.jpg" alt="crossy-road">
+                    <div class="game-info">
+                        <h3>Crossy Road</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/StickmanHook.html">
+                    <img src="images/stickmanhook.jpg" alt="StickmanHook">
+                    <div class="game-info">
+                        <h3>Stickman Hook</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Hcr-lite.html">
+                    <img src="images/Hcrl.png" alt="tag">
+                    <div class="game-info">
+                        <h3>HCR lite 1.0</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Polytrack.html">
+                    <img src="images/polytrack.jpg" alt="poly-track">
+                    <div class="game-info">
+                        <h3>Poly Track</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Tetris.html">
+                    <img src="images/tetris.jpg" alt="tetris">
+                    <div class="game-info">
+                        <h3>Tetris</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DuckLife5.html">
+                    <img src="images/Dl5.png" alt="csgo">
+                    <div class="game-info">
+                        <h3>Duck life 5</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/TombOfTheMask.html">
+                    <img src="images/totm.png" alt="totm">
+                    <div class="game-info">
+                        <h3>Tomb of The Mask</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/SuperMarioBros.html">
+                    <img src="images/Smb.png" alt="supermario64">
+                    <div class="game-info">
+                        <h3>Super Mario Bros</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DoodleJump.html">
+                    <img src="images/Dj.png" alt="DoodleJump">
+                    <div class="game-info">
+                        <h3>Doodle Jump</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/CandyCrush.html">
+                    <img src="images/candycrush.png" alt="candycrush">
+                    <div class="game-info">
+                        <h3>Candy Crush</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="https://html5.gamedistribution.com/544cf55c6ad44a3299099e813f7f5a9d/?gd_sdk_referrer_url=https://gamedistribution.com/games/helix-jump-1/">
+                    <img src="images/helixjump.png" alt="helixjump">
+                    <div class="game-info">
+                        <h3>Helix Jump</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Bowmasters.html">
+                    <img src="images/Bm.png" alt="yohoho">
+                    <div class="game-info">
+                        <h3>Bow Masters</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="https://d11jzht7mj96rr.cloudfront.net/games/2025/unity2/escape-car/index.html">
+                    <img src="images/drifthunters.png" alt="drifthunters">
+                    <div class="game-info">
+                        <h3>Escape car</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/CuttheRope.html">
+                    <img src="images/Ctr.png" alt="tlg">
+                    <div class="game-info">
+                        <h3>Cut the rope</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/ElasticMan.html">
+                    <img src="images/Em.png" alt="deathsoul">
+                    <div class="game-info">
+                        <h3>Elastic man</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FNAF.html">
+                    <img src="images/fnaf.png" alt="FNAF">
+                    <div class="game-info">
+                        <h3>FNAF</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FNAF2.html">
+                    <img src="images/FNAF2.png" alt="FNAF2">
+                    <div class="game-info">
+                        <h3>FNAF 2</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FNAF3.html">
+                    <img src="images/FNAF3.png" alt="FNAF3">
+                    <div class="game-info">
+                        <h3>FNAF 3</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/TinyFishing.html">
+                    <img src="images/tiny-fishing.png" alt="tiny-fishing">
+                    <div class="game-info">
+                        <h3>Tiny Fishing</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/TimeShooter1.html">
+                    <img src="images/time-shooter.png" alt="time-shooter">
+                    <div class="game-info">
+                        <h3>Time Shooter</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/AdventureCapatalist.html">
+                    <img src="images/Ac.png" alt="watermelon">
+                    <div class="game-info">
+                        <h3>Adventure Capatalist</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Bloxorz.html">
+                    <img src="images/B.png" alt="Bloxorz">
+                    <div class="game-info">
+                        <h3>Bloxorz</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/SurvivalRace.html">
+                    <img src="images/survivalrace.png" alt="survivalrace">
+                    <div class="game-info">
+                        <h3>Survival Race</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Bouncemasters.html">
+                    <img src="images/Bms.png" alt="stack">
+                    <div class="game-info">
+                        <h3>Bounce Masters</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BasketBros.html">
+                    <img src="images/basket-bros.png" alt="basket-bros">
+                    <div class="game-info">
+                        <h3>Basket Bros</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Backrooms.html">
+                    <img src="images/backrooms.png" alt="backrooms">
+                    <div class="game-info">
+                        <h3>Backrooms</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Amaze.html">
+                    <img src="images/A.png" alt="Amaze">
+                    <div class="game-info">
+                        <h3>Amaze</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/BlockBlast.html">
+                    <img src="images/blockblast.png" alt="blockblast">
+                    <div class="game-info">
+                        <h3>Block Blast</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/ClashOfVikings.html">
+                    <img src="images/Cov.png" alt="my-friend-pedro">
+                    <div class="game-info">
+                        <h3>Clash Of Vikings</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DrawJoust.html">
+                    <img src="images/Djt.png" alt="scrambled-eggs">
+                    <div class="game-info">
+                        <h3>Draw Joust</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FlipMaster.html">
+                    <img src="images/Fm.png" alt="run">
+                    <div class="game-info">
+                        <h3>Flip Master</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="https://www.ixl.com/">
+                    <img src="images/PANIC.png" alt="PANIC">
+                    <div class="game-info">
+                        <h3>PANIC BUTTON</h3>
+                        <a>Only press this if you are about to get caught.</a>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/FruitNinja.html">
+                    <img src="images/Fn.png" alt="run">
+                    <div class="game-info">
+                        <h3>Fruit Ninja</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Coreball.html">
+                    <img src="images/coreball.png" alt="coreball">
+                    <div class="game-info">
+                        <h3>Core Ball</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/DriftBoss.html">
+                    <img src="images/driftboss.png" alt="driftboss">
+                    <div class="game-info">
+                        <h3>Drift Boss</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/Gunspin.html">
+                    <img src="images/gunspin.png" alt="gunspin">
+                    <div class="game-info">
+                        <h3>Gunspin</h3>
+                    </div>
+                </div>
+                <div class="game-card" data-url="games/doors-online">
+                    <img src="images/doors.png" alt="doors">
+                    <div class="game-info">
+                        <h3>Doors</h3>
+                        <a>Coming eventually...</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script>
+        document.querySelectorAll('.game-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const url = card.getAttribute('data-url');
+                if (url) {
+                    window.location.href = url;
+                }
+            });
+        });
+    </script>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
